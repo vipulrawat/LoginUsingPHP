@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+input[type="email"],input[type="password"]{
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 15px auto;
+  //margin-top: 0px;
+  display: block;
+  width: 300px;
+}
+input[type="submit"]{
+  width: 320px;
+  padding: 10px;
+  background: #0098cb;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin: 10px auto;
+}
+input[type="submit"]:hover{
+  cursor: pointer;
+  background: #00b8eb;
+}
+
+.header{
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px;
+  width: 100%;
+  text-align: center;
+}
+.header a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
